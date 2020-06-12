@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import ContactBook from './components/ContactBook';
 
 function App() {
   return (
     <div className="App">
-      test
+      <ContactBook/>
     </div>
   );
 }
